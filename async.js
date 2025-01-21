@@ -28,7 +28,7 @@ function play(){
           if(x==y)
               res('lucky  '+x)
           else{
-            res('num1 is '+x+' num2 is '+y)
+            rej('num1 is '+x+' num2 is '+y)
           }
         },3000)
     })

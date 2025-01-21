@@ -28,7 +28,7 @@ function play(){
           if(x==y)
               res('lucky  '+x)
           else{
-            rej('num1 is '+x+' num2 is '+y)
+            rej(`num1 is ${x} num2 is  ${y}`)
           }
         },3000)
     })
@@ -50,7 +50,7 @@ function func(x,y)
     if(x==y)
       console.log('lucky  '+x)
     else
-      console.log('num1 is '+x+' num2 is '+y)
+    console.log(`num1 is ${x} num2 is  ${y}`)
 }
 
 playCB(func)
